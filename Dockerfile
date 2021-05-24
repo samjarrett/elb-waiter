@@ -11,3 +11,4 @@ RUN set -xe && \
 COPY wait.py /cwd/
 
 ENTRYPOINT [ "python", "/cwd/wait.py" ]
+LABEL org.opencontainers.image.source https://github.com/samjarrett/elb-waiter
